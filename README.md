@@ -13,8 +13,8 @@ Este es un proyecto boilerplate que está diseñado para trabajar con React y Ty
 - Framer-motion
 - Moment
 - React-hot
-- React-icons
-- React-router
+- React icons
+- React router
 
 ## Inicio rápido
 
