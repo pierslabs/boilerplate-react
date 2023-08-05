@@ -12,10 +12,10 @@ const Home = () => {
       <div className='bg-white p-5 mx-auto w-2/3 '>
         <h1 className='text-3xl text-center m-3'>
           ¡Bienvenido a nuestro Boilerplate con
-          <span className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-purple-500  '>
+          <span className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-purple-500 ml-2 '>
             Vite
           </span>
-          ,<span className='text-blue-800 text-4xl'> TypeScript</span> y{' '}
+          ,<span className='text-blue-800 text-4xl'> TypeScript</span> y
           <span className='text-blue-500 text-4xl'> React</span>!
         </h1>
         <hr />

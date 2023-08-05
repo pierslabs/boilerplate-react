@@ -4,7 +4,7 @@ import Home from '../pages/home/Home';
 
 export const PublicRoutes = [
   {
-    path: '/',
+    path: 'app',
     element: <App />,
     children: [
       { path: 'home', element: <Home /> },
@@ -13,7 +13,7 @@ export const PublicRoutes = [
   },
   {
     path: '/',
-    element: <Navigate to='home' />,
+    element: <Navigate to='app/home' />,
   },
   {
     path: '*',
