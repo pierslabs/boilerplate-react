@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div className='text-xl p-2'>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis
       eaque rem eveniet voluptatem consectetur aspernatur natus eligendi.
       Voluptatum ex quia fuga est expedita asperiores saepe, reiciendis eum
