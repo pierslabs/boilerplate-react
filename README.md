@@ -5,6 +5,7 @@
 Este es un proyecto boilerplate que está diseñado para trabajar con React y TypeScript utilizando Vite como herramienta de desarrollo. Proporciona una configuración inicial con las dependencias y scripts necesarios para comenzar a desarrollar rápidamente aplicaciones web modernas con React.
 
 - React
+- Tailwind
 - Vitest
 - Testing Library
 - Axios
