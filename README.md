@@ -1,6 +1,4 @@
-# Boilerplate
-
-![Boilerplate Logo](insertar_url_del_logo.png)
+# React BoilerPlate
 
 ## Descripción
 
