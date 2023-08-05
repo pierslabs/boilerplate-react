@@ -1,3 +1,6 @@
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import eslintPlugin from 'vite-plugin-eslint'
@@ -9,9 +12,10 @@ export default defineConfig({
     cache: false,
     include: ['src/**/*.tsx', 'src/**/*.ts'],
     exclude: ['node_modules/**', 'dist/**'],
-    fix: true,
-    throwOnWarning: true,
-    throwOnError: true,
-  })  
+  }),
   ],
+  test:{
+    environment: 'jsdom',
+    globals: true
+  }
 })
