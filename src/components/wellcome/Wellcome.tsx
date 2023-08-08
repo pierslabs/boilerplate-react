@@ -1,6 +1,6 @@
 const Wellcome = () => {
   return (
-    <div className='bg-white p-5 mx-auto w-2/3 '>
+    <div className='bg-white p-3 rounded-sm text-gray-800'>
       <h1 className='text-3xl text-center m-3'>
         ¡Bienvenido a nuestro Boilerplate con
         <span className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-purple-500 ml-2 '>

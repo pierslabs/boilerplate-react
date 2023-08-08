@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const TechnologyIcons = () => {
   return (
-    <div className='flex flex-wrap justify-center items-baseline gap-10 sm:mt-20 mt-10'>
+    <div className='flex flex-wrap justify-center items-baseline gap-4'>
       <div className='text-center'>
         <Link to='https://reactjs.org'>
           <FaReact className='text-9xl text-blue-400 m-2' />

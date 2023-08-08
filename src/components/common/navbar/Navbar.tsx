@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className='bg-gray-800 p-4 h-[60px]'>
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='mx-auto flex justify-between items-center'>
         <div className='text-white font-bold text-xl'>
           <Link to='/'>My Site</Link>
         </div>
