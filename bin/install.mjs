@@ -7,6 +7,7 @@ import fs from 'fs';
 import process from 'process';
 // cli spinners
 import ora from 'ora';
+
 // convert libs to promises
 const exec = promisify(cp.exec);
 const rm = promisify(fs.rm);
@@ -14,13 +15,15 @@ const rm = promisify(fs.rm);
 if (process.argv.length < 3) {
   console.log('You have to provide a name to your app.');
   console.log('For example :');
+  console.log('    npx simple-ts-app my-app');
   process.exit(1);
 }
 
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const git_repo = 'https://github.com/pierslabs/boilerplate-react';
+// TODO: change to your boilerplate repo
+const git_repo = 'https://github.com/pierslabs/boilerplate-react.git';
 
 // create project directory
 if (fs.existsSync(projectPath)) {
