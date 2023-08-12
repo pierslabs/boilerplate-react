@@ -17,6 +17,22 @@ Este es un proyecto boilerplate que está diseñado para trabajar con React y Ty
 
 ## Inicio rápido
 
+Si deseas comenzar a usar este repositorio, aquí tienes dos formas de hacerlo:
+
+### Opción 1: Instalación Directa desde NPM
+
+Puedes instalar y configurar tu aplicación directamente desde NPM utilizando el siguiente comando en tu terminal:
+
+```bash
+npx @pierslabs/react <nombre-de-tu-app>
+```
+
+Sustituye `<nombre-de-tu-app>` por el nombre que desees para tu aplicación. Esto creará una nueva instancia de tu aplicación con la configuración predeterminada.
+
+### Opción 2: Clonar desde GitHub
+
+Si prefieres tener más control sobre la configuración inicial, puedes clonar el repositorio desde GitHub y luego realizar los pasos de instalación manualmente:
+
 1. Clona este repositorio en tu máquina local:
 
 ```bash
