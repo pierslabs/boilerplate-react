@@ -3,7 +3,7 @@ const Wellcome = () => {
     <div className='bg-white p-3 rounded-sm text-gray-800'>
       <h1 className='text-3xl text-center m-3'>
         ¡Bienvenido a nuestro Boilerplate con
-        <span className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-purple-500 ml-2 '>
+        <span className='text-4xl font-bold bg-clip-text bg-gradient-to-b from-blue-500 to-purple-500 ml-2 '>
           Vite
         </span>
         ,<span className='text-blue-800 text-4xl'> TypeScript</span> y
